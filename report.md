@@ -4,6 +4,7 @@
 ## Learning Algorithm
 
 DQN 
+* I had the batch_size as 128 and UPDATE_EVERY as 16. Tuning other hyperparameters might help converge even faster
 
 ## Plot of Rewards
 
@@ -23,7 +24,7 @@ DQN
 ## Ideas for Future Work
 
 
-* I had the batch_size as 128 and UPDATE_EVERY as 16. Tuning other hyperparameters might help converge even faster
+
 * I would like to try looking at the effects of prioritized replay and Dueling DQN. 6 different improvements to DQN are implemenmted in RAINBOW.
 * I would also like to see how significant the difference is between different algorithmns and find a way to compare them
 * If environment could be modified, then **shaping the rewards** might help improve the performancce of the agent as well. 
