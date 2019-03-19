@@ -17,5 +17,5 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ### Instructions
 
-Follow the code cells in `Navigation.ipynb` after the DQN subheading to get started with training the agent!  
+Follow the code cells in `Code\p1_navigation\Navigation.ipynb` after the DQN subheading to get started with training the agent!  
 Weights for the trained model are in the file 'checkpoint.pth'
