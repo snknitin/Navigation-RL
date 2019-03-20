@@ -29,4 +29,4 @@ Rest of the details of the algorigthm can be found [here](https://github.com/uda
 
 * I would like to try looking at the effects of prioritized replay and Dueling DQN. 6 different improvements to DQN are implemenmted in RAINBOW.
 * I would also like to see how significant the difference is between different algorithmns and find a way to compare them
-* If environment could be modified, then **shaping the rewards** might help improve the performancce of the agent as well. 
+* If environment could be modified, then **shaping the rewards** might help improve the performancce of the agent as well. Based on the number of blue and number of yellow bananas collected, we can have a higher negative penalty for blue that keeps increasing with the number of collected banana. if the percentage of yellow bananas from the total_collected_so_far is > 70% then give a higher scaled reward.
