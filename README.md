@@ -31,6 +31,10 @@ The task is episodic, and in order to solve the environment, your agent must get
     - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
     
 2. Place the file in this GitHub repository, in the folder, and unzip (or decompress) the file. 
+3. Install the requirements from the python folder using `pip install ./python`
+    * Since most people might run into errors for torch 0.4.0, i removed it from the requirements and torch needs to be installed separately.
+
+   
 
 ### Instructions
 
