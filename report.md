@@ -6,6 +6,8 @@
 DQN 
 * I had the batch_size as 128 and UPDATE_EVERY as 16. Tuning other hyperparameters might help converge even faster
 
+Rest of the details of the algorigthm can be found [here](https://github.com/udacity/deep-reinforcement-learning/tree/master/dqn)
+
 ## Plot of Rewards
 
 
