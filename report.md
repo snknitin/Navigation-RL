@@ -34,7 +34,16 @@ There are two main processes involved. One is where we sample the environment by
 In the early stages the Q values are still evolving and we may not have gathered enough data to determine the best action but we choose the action which maximizes the Q value. **Since we take the max out of noise values, Deep Q-Learning tends to overestimate action values**. Double Q-Learning has been shown to work well in practice to help with this. **We select the best set action using one set of parameters W but evaluate it using a different set of parameters W'. It is basically like having 2 separate function approximators that must agree on the best action.In the long run this prevent the algo from propagating indcidental high rewards that may have been obtained by chance and don't reflect long term returns**. W- from the fixed target can also be used.
 
 
+## Hyper parameters
+
+
 * I had the **batch_size as 128 and UPDATE_EVERY as 16**. Tuning other hyperparameters might help converge even faster
+* BUFFER_SIZE = int(1e5)  # replay buffer size
+* GAMMA = 0.99            # discount factor
+* TAU = 1e-3              # for soft update of target parameters
+* LR = 5e-4               # learning rate 
+
+
 
 Rest of the details of the algorigthm can be found [here](https://github.com/udacity/deep-reinforcement-learning/tree/master/dqn)
 
