@@ -3,7 +3,7 @@
 
 ## Learning Algorithm - Value based methods  - DQN
 
-The Deep Q-Learning algorithm represents the optimal action-value function as a neural network. Unfortunately, **reinforcement learning is notoriously unstable when neural networks are used to represent the action values**. In this lesson, you'll learn all about the Deep Q-Learning algorithm, which addressed these instabilities by using two key features:
+The Deep Q-Learning algorithm represents the optimal action-value function as a neural network. Unfortunately, **reinforcement learning is notoriously unstable when neural networks are used to represent the action values**. 
 
 * **Experience Replay**: When the agent interacts with the environment, the sequence of experience tuples can be highly correlated. The naive Q-learning algorithm that learns from each of these experience tuples in sequential order runs the risk of getting swayed by the effects of this correlation. By instead **keeping track of a replay buffer and using experience replay to sample from the buffer at random, we can prevent action values from oscillating or diverging catastrophically**.
 
